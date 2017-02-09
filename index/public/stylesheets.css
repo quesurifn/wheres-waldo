@@ -1,0 +1,41 @@
+.card {
+  padding: 5px;
+  border: solod 1px #d3d3d3;
+  box-shadow: 6px 5px 5px #d3d3d3;
+  margin: auto; }
+  .card img {
+    height: 259px;
+  }
+  .card:hover {
+    opacity: 0.4;
+  }
+
+  #gameBoard {
+    padding: 5px;
+    border: solid 1px #d3d3d3;
+    box-shadow: 6px 5px 5px #d3d3d3;
+    margin: auto;
+    position: relative;
+    z-index: -99;
+    text-align: center;
+    width: 830px;
+    height: 620px;
+  }
+
+  #waldo1 {
+    margin: auto;
+    position: relative;
+    z-index: 99;
+  }
+
+  p {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    display: table;
+    background-color: black;
+    color: white;
+    left: 14em;
+  }
+
+/*# sourceMappingURL=stylesheets.css.map */
